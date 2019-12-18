@@ -6,11 +6,15 @@ AAAI 2019.
 [[PDF]](https://aaai.org/ojs/index.php/AAAI/article/view/4899/4772)
 
 ## Code
-The code base will be released as soon as possible after cleaning up.
+Check `main.py` for details.
 
-Our codes are based on [zzhiwu/SPDNeth](https://github.com/zzhiwu/SPDNet), and translated into PyTorch.
+Our codes are based on [zzhiwu/SPDNet](https://github.com/zzhiwu/SPDNet), and translated into PyTorch.
 
-If you have any questions, please do not hesitate to point out in [issues](https://github.com/theFool32/BoMS/issues).
+Different from the original paper, we find that replacing the classifier with the softmax on the distances between the dictionary is more stable.
+
+Note that best of results on AFEW is fine-tuned from the SPDNet.
+
+Feel free to contact to the authors (lijie.32@outlook.com) if you have any problems.
 
 ## Citation  
 If our paper helps your research, please cite it in your publications:
@@ -21,4 +25,11 @@ If our paper helps your research, please cite it in your publications:
   booktitle={Association for the Advancement of Artificial Intelligence (AAAI)},
   year={2019}
 }
+
+@inproceedings{huang2017riemannian,
+  title={A riemannian network for spd matrix learning},
+  author={Huang, Zhiwu and Van Gool, Luc},
+  booktitle={Thirty-First AAAI Conference on Artificial Intelligence},
+  year={2017}
+  }
 ```
