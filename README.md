@@ -26,10 +26,10 @@ If our paper helps your research, please cite it in your publications:
   year={2019}
 }
 
-@inproceedings{huang2017riemannian,
+@InProceedings{huang2017riemannian,
   title={A riemannian network for spd matrix learning},
   author={Huang, Zhiwu and Van Gool, Luc},
   booktitle={Thirty-First AAAI Conference on Artificial Intelligence},
   year={2017}
-  }
+}
 ```
